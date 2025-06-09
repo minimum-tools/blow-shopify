@@ -1,0 +1,37 @@
+<div class="padding-global"><div class="container-large"><div class="w-layout-grid footer4_top-wrapper"><div id="w-node-_89acffba-41b4-a83e-35fd-baa845251890-4525188c"><div class="heading-style-h2">Contacto</div></div><div id="w-node-_89acffba-41b4-a83e-35fd-baa845251893-4525188c" class="padding-top padding-small"><div><a href="mailto:info@blowglassware.com" class="footer_link is-email">info@blowglassware.com<br>
+</a><a href="https://www.instagram.com/blowglassware/" target="_blank" class="footer_link">Instagram</a></div></div><a href="#" id="w-node-_89acffba-41b4-a83e-35fd-baa84525189f-4525188c" class="footer4_logo-link w-nav-brand"><img loading="lazy" src="{{ 'blow-icon.svg' | asset_url }}" alt="">
+</a></div><div class="w-layout-grid footer4_bottom-wrapper"><div id="w-node-_89acffba-41b4-a83e-35fd-baa8452518a2-4525188c" class="footer4_credit-text is-mobile-line-trick">© 2023 Blow</div><div id="w-node-_89acffba-41b4-a83e-35fd-baa8452518a4-4525188c" class="footer4_credit-text hide-tablet">Glass Services</div><div li-for:inside="link in linklists['legal'].links" id="w-node-f8c84cd6-96e8-a02c-40ee-e069872d66de-4525188c" class="footer_legal-links">
+        {% for link in linklists['legal'].links %}                            
+                            <a li-object="link.title" li-object:href="link.url" href="{{ link.url }}" class="footer_legal-link">{{ link.title }}</a>
+                            
+                    {% endfor %}    </div>
+<div id="w-node-_89acffba-41b4-a83e-35fd-baa8452518a6-4525188c" class="language-switch">{% if localization.available_languages.size > 1 %}    <localization-form li-if="localization.available_languages.size > 1" class="li-lang_wrapper">
+    {% form 'localization', class: 'li-lang_form' %}
+<div data-hover="true" data-delay="500" class="li-lang_dropdown w-dropdown"><div lang="{{ language.iso_code }}" class="li-lang_dd-toggle w-dropdown-toggle"><div li-object="localization.language.endonym_name | capitalize">{{ localization.language.endonym_name | capitalize }}</div><img src="https://uploads-ssl.webflow.com/613f2f905ede8d670775fc8a/61548248f37f3a0faab19498_arrow-drop.svg" loading="lazy" alt="" class="li-lang_dd-toggle-icon">
+</div><nav li-for:inside="language in localization.available_languages" class="li-lang_dd-list w-dropdown-list">
+        {% for language in localization.available_languages %}                            
+                            {% unless localization.language.iso_code == language.iso_code %}    <div li-unless="localization.language.iso_code == language.iso_code" class="li-lang_dd-list-item">
+    <a href="#" li-object="language.endonym_name | capitalize" lang="{{ language.iso_code }}" hreflang="{{ language.iso_code }}" data-value="{{ language.iso_code }}" class="li-lang_dd-link w-dropdown-link">{{ language.endonym_name | capitalize }}</a>    </div>
+{% endunless %}
+                            
+                    {% endfor %}    </nav>
+</div><input type="hidden" name="language_code" class="li-lang_hidden-input" value="{{ localization.language.iso_code }}">
+{% endform %}
+<div class="li-lang_script w-embed w-script"><script>class LocalizationForm extends HTMLElement {
+  constructor() {
+    super();
+    this.input = this.querySelector('input[name="language_code"], input[name="country_code"]');
+    this.querySelectorAll('a').forEach(item =>
+      item.addEventListener('click', this.onItemClick.bind(this))
+    );
+  }
+  onItemClick(event) {
+    event.preventDefault();
+    const form = this.querySelector('form');
+    this.input.value = event.currentTarget.dataset.value;
+    if (form) form.submit();
+  }
+}
+customElements.define('localization-form', LocalizationForm);
+</script></div>    </localization-form>
+{% endif %}</div></div></div></div> {% schema %} {"tag":"footer","name":"Footer Blow","class":"footer4_component","presets":[{"name":"Footer Blow","category":"Liquify","blocks":[]}]} {% endschema %}

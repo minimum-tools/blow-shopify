@@ -1,0 +1,44 @@
+{
+    "sections": {
+        "full_image": {
+            "type": "full_image"
+        },
+        "intro_text": {
+            "type": "intro_text"
+        },
+        "colecciones_destacad": {
+            "type": "colecciones_destacad"
+        },
+        "contenido_e_imagen_g": {
+            "type": "contenido_e_imagen_g"
+        },
+        "frase_destacada": {
+            "type": "frase_destacada"
+        },
+        "imagenes_grid": {
+            "type": "imagenes_grid"
+        },
+        "clientes": {
+            "type": "clientes"
+        },
+        "category": {
+            "type": "category"
+        },
+        "footer_blow": {
+            "type": "footer_blow"
+        }
+    },
+    "layout": "theme",
+    "wrapper": "main.main-wrapper",
+    "order": [
+        "full_image",
+        "intro_text",
+        "colecciones_destacad",
+        "contenido_e_imagen_g",
+        "frase_destacada",
+        "imagenes_grid",
+        "clientes",
+        "category",
+        "footer_blow"
+    ]
+}
