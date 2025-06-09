@@ -38,7 +38,9 @@
     "full_image_fR6GUm": {
       "type": "full_image",
       "name": "Full Image",
-      "settings": {}
+      "settings": {
+        "image_imagen": "shopify://shop_images/hero.jpg"
+      }
     },
     "contenido_e_imagen_g": {
       "type": "contenido_e_imagen_g",
