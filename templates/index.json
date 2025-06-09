@@ -1,44 +1,84 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
-    "sections": {
-        "full_image": {
-            "type": "full_image"
-        },
-        "intro_text": {
-            "type": "intro_text"
-        },
-        "colecciones_destacad": {
-            "type": "colecciones_destacad"
-        },
-        "contenido_e_imagen_g": {
-            "type": "contenido_e_imagen_g"
-        },
-        "frase_destacada": {
-            "type": "frase_destacada"
-        },
-        "imagenes_grid": {
-            "type": "imagenes_grid"
-        },
-        "clientes": {
-            "type": "clientes"
-        },
-        "category": {
-            "type": "category"
-        },
-        "footer_blow": {
-            "type": "footer_blow"
-        }
+  "sections": {
+    "full_image": {
+      "type": "full_image",
+      "settings": {
+        "image_imagen": "shopify://shop_images/64c8aba1448446ec8742e9a8_BlowGlassWare-188-5k-p-1600.jpg"
+      }
     },
-    "layout": "theme",
-    "wrapper": "main.main-wrapper",
-    "order": [
-        "full_image",
-        "intro_text",
-        "colecciones_destacad",
-        "contenido_e_imagen_g",
-        "frase_destacada",
-        "imagenes_grid",
-        "clientes",
-        "category",
-        "footer_blow"
-    ]
+    "intro_text": {
+      "type": "intro_text",
+      "settings": {
+        "text_content": "Blow Glassware ha sido creado con el objetivo de cautivar y enamorar al consumidor, diseñado desde la perspectiva del bartender y producido con la maestría del artesano. Satisfaciendo necesidades de diseño y funcionalidad que, desde nuestro punto de vista, no habían sido exploradas hasta ahora en la escena del cocktail bar.",
+        "text_heading": "Artesanía y diseño"
+      }
+    },
+    "colecciones_destacad": {
+      "type": "colecciones_destacad",
+      "settings": {
+        "text_titular": "Colecciones"
+      }
+    },
+    "contenido_e_imagen_g": {
+      "type": "contenido_e_imagen_g",
+      "settings": {
+        "text_titular": "Regala Blow",
+        "text_contenido": "Ahora puedes adquirir nuestros exclusivos packs de regalo de nuestra icónica colección Helénica. Sopladas a boca de forma artesanal y diseñadas para una mixología exquisita. Elige tu cóctel favorito y crea un pack único con dos copas numeradas, presentadas en una caja exclusiva diseñada por el estudio Josep Garrofé.<br>‍<br>Cada pack se presenta en un elegante formato listo para regalo cuidadosamente protegidas para garantizar su integridad durante el transporte, convirtiendo cualquier ocasión en una experiencia memorable.",
+        "url_boton_link": "",
+        "text_boton_texto": "Ver packs regalo"
+      }
+    },
+    "frase_destacada": {
+      "type": "frase_destacada",
+      "settings": {
+        "text_texto": "“La estética tenía que ser simple, limpia, minimalista, contemporánea, delicada y elegante, inspirada en la coctelería clásica.”"
+      }
+    },
+    "imagenes_grid": {
+      "type": "imagenes_grid",
+      "settings": {}
+    },
+    "clientes": {
+      "type": "clientes",
+      "settings": {
+        "text_titulo": "Nuestros clientes"
+      }
+    },
+    "category": {
+      "type": "category",
+      "settings": {
+        "text_headline": "Short heading here",
+        "url_button_link": "",
+        "text_button_text": "All products",
+        "collection_collection": "",
+        "collection_collection_limit": 6
+      }
+    },
+    "footer_blow": {
+      "type": "footer_blow",
+      "settings": {}
+    }
+  },
+  "layout": "theme",
+  "wrapper": "main.main-wrapper",
+  "order": [
+    "full_image",
+    "intro_text",
+    "colecciones_destacad",
+    "contenido_e_imagen_g",
+    "frase_destacada",
+    "imagenes_grid",
+    "clientes",
+    "category",
+    "footer_blow"
+  ]
 }
