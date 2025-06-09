@@ -1,0 +1,16 @@
+{
+    "sections": {
+        "product_hero": {
+            "type": "product_hero"
+        },
+        "frase_destacada": {
+            "type": "frase_destacada"
+        }
+    },
+    "layout": "product",
+    "wrapper": "main.main-wrapper",
+    "order": [
+        "product_hero",
+        "frase_destacada"
+    ]
+}
