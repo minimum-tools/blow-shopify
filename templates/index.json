@@ -12,7 +12,7 @@
     "full_image": {
       "type": "full_image",
       "settings": {
-        "image_imagen": "shopify://shop_images/64c8aba1448446ec8742e9a8_BlowGlassWare-188-5k-p-1600.jpg"
+        "image_imagen": "shopify://shop_images/hero.jpg"
       }
     },
     "intro_text": {
@@ -22,11 +22,23 @@
         "text_heading": "Artesanía y diseño"
       }
     },
+    "full_image_XTVLz8": {
+      "type": "full_image",
+      "name": "Full Image",
+      "settings": {
+        "image_imagen": "shopify://shop_images/Full-image.jpg"
+      }
+    },
     "colecciones_destacad": {
       "type": "colecciones_destacad",
       "settings": {
         "text_titular": "Colecciones"
       }
+    },
+    "full_image_fR6GUm": {
+      "type": "full_image",
+      "name": "Full Image",
+      "settings": {}
     },
     "contenido_e_imagen_g": {
       "type": "contenido_e_imagen_g",
@@ -45,7 +57,10 @@
     },
     "imagenes_grid": {
       "type": "imagenes_grid",
-      "settings": {}
+      "settings": {
+        "image_imagen_izquierda": "shopify://shop_images/izq.jpg",
+        "image_imagen_derecha": "shopify://shop_images/derc.jpg"
+      }
     },
     "clientes": {
       "type": "clientes",
@@ -73,7 +88,9 @@
   "order": [
     "full_image",
     "intro_text",
+    "full_image_XTVLz8",
     "colecciones_destacad",
+    "full_image_fR6GUm",
     "contenido_e_imagen_g",
     "frase_destacada",
     "imagenes_grid",
