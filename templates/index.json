@@ -83,6 +83,11 @@
     "footer_blow": {
       "type": "footer_blow",
       "settings": {}
+    },
+    "list_collection_QYRKVV": {
+      "type": "list_collection",
+      "name": "List-Collection",
+      "settings": {}
     }
   },
   "layout": "theme",
@@ -98,6 +103,7 @@
     "imagenes_grid",
     "clientes",
     "category",
-    "footer_blow"
+    "footer_blow",
+    "list_collection_QYRKVV"
   ]
 }
