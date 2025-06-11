@@ -9,17 +9,21 @@
  */
 {
   "sections": {
-    "list_collection_2_waBBAx": {
-      "type": "list_collection_2",
-      "name": "List-Collection 2",
+    "list_collection_hero": {
+      "type": "list_collection_hero",
       "settings": {
-        "text_titular": "Colecciones"
+        "text_heading": "Colecciones"
       }
+    },
+    "list_collection": {
+      "type": "list_collection",
+      "settings": {}
     }
   },
   "layout": "list-collections",
   "wrapper": "main.main-wrapper",
   "order": [
-    "list_collection_2_waBBAx"
+    "list_collection_hero",
+    "list_collection"
   ]
 }
