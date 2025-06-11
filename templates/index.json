@@ -29,16 +29,12 @@
         "image_imagen": "shopify://shop_images/Full-image.jpg"
       }
     },
-    "colecciones_destacad": {
-      "type": "colecciones_destacad",
+    "list_collection_2_V9EDCi": {
+      "type": "list_collection_2",
+      "name": "List-Collection 2",
       "settings": {
         "text_titular": "Colecciones"
       }
-    },
-    "list_collection_QYRKVV": {
-      "type": "list_collection",
-      "name": "List-Collection",
-      "settings": {}
     },
     "contenido_e_imagen_g": {
       "type": "contenido_e_imagen_g",
@@ -88,8 +84,7 @@
     "full_image",
     "intro_text",
     "full_image_XTVLz8",
-    "colecciones_destacad",
-    "list_collection_QYRKVV",
+    "list_collection_2_V9EDCi",
     "contenido_e_imagen_g",
     "frase_destacada",
     "full_image_fR6GUm",
