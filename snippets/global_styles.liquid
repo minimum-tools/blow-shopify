@@ -1,4 +1,11 @@
-<style>[li-cloak_disabled="hide"]  { display: none !important; }
+<style>[css="image-scale"] {
+    clip-path: inset(10% 20% 0 20% round 0px);
+    transition: all 1s;
+  }
+  [css="image-scale"].is-visible {
+    clip-path: inset(0% round 0px);
+  }
+  [li-cloak_disabled="hide"]  { display: none !important; }
   [x-cloak] { display: none !important; }
   html { font-size: calc(0.8125rem + 0.20833333333333331vw); }
   @media screen and (max-width:1920px) { html { font-size: calc(0.8125rem + 0.20833333333333337vw); } }
