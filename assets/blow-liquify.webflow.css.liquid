@@ -2009,6 +2009,12 @@ figcaption {
   height: auto;
 }
 
+.swiper-slide.is-collections {
+  width: 15rem;
+  margin-left: .5rem;
+  margin-right: .5rem;
+}
+
 .swiper_button-wrapper {
   grid-column-gap: .75rem;
   grid-row-gap: .75rem;
@@ -4427,6 +4433,7 @@ figcaption {
 
 .swiper_bullet.is-active {
   border: 1px solid var(--accessible-components-dark-grey\<deleted\|variable-c4d8099c\>);
+  border: 1px solid #9b9b9b;
 }
 
 .section_image-product {
@@ -4684,6 +4691,46 @@ figcaption {
 
 .product-link {
   color: #8a3b00;
+}
+
+.swiper_button-2 {
+  text-align: center;
+  background-color: #fff;
+  border: 1px solid #eee;
+  border-radius: 100vw;
+  justify-content: center;
+  align-items: center;
+  width: 3rem;
+  height: 3rem;
+  transition: color .2s, background-color .2s;
+  display: flex;
+  position: relative;
+}
+
+.swiper_button-2:hover {
+  color: #1f1f1f;
+}
+
+.container-large-2 {
+  width: 100%;
+  max-width: 85rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.heading-style-h2-2 {
+  font-size: 2.5rem;
+  font-weight: 600;
+  line-height: 1;
+}
+
+.text-size-medium-5 {
+  font-size: 1.25rem;
+}
+
+.padding-global-2 {
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
 }
 
 @media screen and (max-width: 991px) {
@@ -5988,6 +6035,15 @@ figcaption {
   .faq3_icon-wrapper {
     width: 1.75rem;
   }
+
+  .heading-style-h2-2 {
+    font-size: 2rem;
+  }
+
+  .padding-global-2 {
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+  }
 }
 
 @media screen and (max-width: 479px) {
@@ -6354,6 +6410,10 @@ figcaption {
 
   .layout3_content, .team20_content, .team20_list, .faq3_component {
     grid-template-columns: 1fr;
+  }
+
+  .heading-style-h2-2 {
+    font-size: 2rem;
   }
 }
 
