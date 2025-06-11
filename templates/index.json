@@ -70,6 +70,11 @@
         "text_titulo": "Nuestros clientes"
       }
     },
+    "list_collection_QYRKVV": {
+      "type": "list_collection",
+      "name": "List-Collection",
+      "settings": {}
+    },
     "category": {
       "type": "category",
       "settings": {
@@ -83,11 +88,6 @@
     "footer_blow": {
       "type": "footer_blow",
       "settings": {}
-    },
-    "list_collection_QYRKVV": {
-      "type": "list_collection",
-      "name": "List-Collection",
-      "settings": {}
     }
   },
   "layout": "theme",
@@ -97,13 +97,13 @@
     "intro_text",
     "full_image_XTVLz8",
     "colecciones_destacad",
+    "list_collection_QYRKVV",
     "full_image_fR6GUm",
     "contenido_e_imagen_g",
     "frase_destacada",
     "imagenes_grid",
     "clientes",
     "category",
-    "footer_blow",
-    "list_collection_QYRKVV"
+    "footer_blow"
   ]
 }
