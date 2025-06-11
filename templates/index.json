@@ -89,6 +89,14 @@
         ],
         "collection_limit": 12
       }
+    },
+    "team_pYA3xN": {
+      "type": "team",
+      "name": "Team",
+      "settings": {
+        "text_title": "Our team",
+        "text_content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique."
+      }
     }
   },
   "layout": "theme",
@@ -103,7 +111,8 @@
     "full_image_fR6GUm",
     "imagenes_grid",
     "clientes_MaXxca",
-    "footer_blow",
-    "collection_swiper_1_VjUPTB"
+    "team_pYA3xN",
+    "collection_swiper_1_VjUPTB",
+    "footer_blow"
   ]
 }
