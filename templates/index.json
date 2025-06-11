@@ -60,7 +60,7 @@
       "type": "full_image",
       "name": "Full Image",
       "settings": {
-        "image_imagen": "shopify://shop_images/hero.jpg"
+        "image_imagen": "shopify://shop_images/full-image-02.jpg"
       }
     },
     "imagenes_grid": {
