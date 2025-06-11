@@ -1,16 +1,30 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
-    "sections": {
-        "productos_de_la_cole": {
-            "type": "productos_de_la_cole"
-        },
-        "colecciones_destacad": {
-            "type": "colecciones_destacad"
-        }
+  "sections": {
+    "productos_de_la_cole": {
+      "type": "productos_de_la_cole",
+      "settings": {}
     },
-    "layout": "collection",
-    "wrapper": "main.main-wrapper",
-    "order": [
-        "productos_de_la_cole",
-        "colecciones_destacad"
-    ]
+    "list_collection_hero_ttacU4": {
+      "type": "list_collection_hero",
+      "name": "List-Collection-Hero",
+      "settings": {
+        "text_heading": "All Categories"
+      }
+    }
+  },
+  "layout": "collection",
+  "wrapper": "main.main-wrapper",
+  "order": [
+    "list_collection_hero_ttacU4",
+    "productos_de_la_cole"
+  ]
 }
