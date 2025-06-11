@@ -72,6 +72,13 @@
     "footer_blow": {
       "type": "footer_blow",
       "settings": {}
+    },
+    "clientes_MaXxca": {
+      "type": "clientes",
+      "name": "Clientes",
+      "settings": {
+        "text_titulo": "Nuestros clientes"
+      }
     }
   },
   "layout": "theme",
@@ -86,6 +93,7 @@
     "full_image_fR6GUm",
     "contenido_e_imagen_g",
     "imagenes_grid",
+    "clientes_MaXxca",
     "footer_blow"
   ]
 }
