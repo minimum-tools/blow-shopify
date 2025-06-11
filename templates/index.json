@@ -69,16 +69,6 @@
         "image_imagen_derecha": "shopify://shop_images/derc.jpg"
       }
     },
-    "category": {
-      "type": "category",
-      "settings": {
-        "text_headline": "Short heading here",
-        "url_button_link": "",
-        "text_button_text": "All products",
-        "collection_collection": "",
-        "collection_collection_limit": 6
-      }
-    },
     "footer_blow": {
       "type": "footer_blow",
       "settings": {}
@@ -96,7 +86,6 @@
     "contenido_e_imagen_g",
     "frase_destacada",
     "imagenes_grid",
-    "category",
     "footer_blow"
   ]
 }
