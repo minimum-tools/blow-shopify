@@ -40,6 +40,12 @@
       "name": "List-Collection",
       "settings": {}
     },
+    "frase_destacada": {
+      "type": "frase_destacada",
+      "settings": {
+        "text_texto": "“La estética tenía que ser simple, limpia, minimalista, contemporánea, delicada y elegante, inspirada en la coctelería clásica.”"
+      }
+    },
     "full_image_fR6GUm": {
       "type": "full_image",
       "name": "Full Image",
@@ -54,12 +60,6 @@
         "text_contenido": "Ahora puedes adquirir nuestros exclusivos packs de regalo de nuestra icónica colección Helénica. Sopladas a boca de forma artesanal y diseñadas para una mixología exquisita. Elige tu cóctel favorito y crea un pack único con dos copas numeradas, presentadas en una caja exclusiva diseñada por el estudio Josep Garrofé.<br>‍<br>Cada pack se presenta en un elegante formato listo para regalo cuidadosamente protegidas para garantizar su integridad durante el transporte, convirtiendo cualquier ocasión en una experiencia memorable.",
         "url_boton_link": "",
         "text_boton_texto": "Ver packs regalo"
-      }
-    },
-    "frase_destacada": {
-      "type": "frase_destacada",
-      "settings": {
-        "text_texto": "“La estética tenía que ser simple, limpia, minimalista, contemporánea, delicada y elegante, inspirada en la coctelería clásica.”"
       }
     },
     "imagenes_grid": {
@@ -82,9 +82,9 @@
     "full_image_XTVLz8",
     "colecciones_destacad",
     "list_collection_QYRKVV",
+    "frase_destacada",
     "full_image_fR6GUm",
     "contenido_e_imagen_g",
-    "frase_destacada",
     "imagenes_grid",
     "footer_blow"
   ]
