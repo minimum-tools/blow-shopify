@@ -76,6 +76,11 @@
     "footer_blow": {
       "type": "footer_blow",
       "settings": {}
+    },
+    "video_rWMi4r": {
+      "type": "video",
+      "name": "Video",
+      "settings": {}
     }
   },
   "layout": "theme",
@@ -90,6 +95,7 @@
     "full_image_fR6GUm",
     "imagenes_grid",
     "clientes_MaXxca",
+    "video_rWMi4r",
     "footer_blow"
   ]
 }
