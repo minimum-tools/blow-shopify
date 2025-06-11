@@ -1,30 +1,73 @@
-<div class="padding-global"><div class="container-large"><div class="padding-section-medium padding-bottom"><div id="w-node-fbc2b76f-ae1d-c44d-7b93-e3deb074d94a-13ef4038" class="filter_feed"><div class="filter_product-list-wrapper w-dyn-list"><div role="list" class="filter_product-list w-dyn-items">{% for product in collection.products %}    <div li-for="product in collection.products" role="listitem" class="filter_product-list-item w-dyn-item">
+<div class="padding-global"><div class="container-large"><style>.collections_item:hover .collections_image,
+.collections_item:focus-within .collections_image,
+.collections_item:hover .collections_overlay-image,
+.collections_item:focus-within .collections_overlay-image {
+  scale: 1.1;
+}
+@media screen and (max-width: 1440px) {
+  .swiper.is-collections {
+    overflow: visible;
+  }
+}
+</style><div class="padding-section-medium padding-bottom"><div id="w-node-fbc2b76f-ae1d-c44d-7b93-e3deb074d94a-13ef4038" class="filter_feed">{% for product in collection.products %}    <div data-delay="0" data-hover="false" li-for="product in collection.products" data-w-id="347efef7-07f3-cbc1-5138-0ffb8e1286e7" class="content17_dropdown w-dropdown">
+                                    
+                            <div data-w-id="347efef7-07f3-cbc1-5138-0ffb8e1286e8" class="content17_dropdown_toggle w-dropdown-toggle"><div li-object="product.title" class="content17_dropdown_toggle-name">{{ product.title }}</div><div class="content17_dropdown_toggle-closer">Cerrar</div><div class="content17_dropdown_toggle-opener">Ver detalles</div><div class="cta38_link-image-wrapper pointer-events-off"><img loading="eager" src="https://d3e54v103j8qbb.cloudfront.net/plugins/Basic/assets/placeholder.60f9b1840c.svg" alt="" class="cta38_link-image is-glassware">
+</div></div>
+                            
+                            <nav class="content17_dropdown_list w-dropdown-list"><div class="content17_dropdown_list-inner"><div class="content17_dropdown_list-inner-text"><p li-object="product.description" class="product-description">{{ product.description }}</p><div class="margin-top margin-large"><a href="#" class="button w-button">Comprar</a></div></div><div id="w-node-_347efef7-07f3-cbc1-5138-0ffb8e1286f9-13ef4038" class="content17_dropdown_image-wrapper"><img li-object:src="product.featured_image | img_url: 'master'" li-object:alt="product.featured_image.alt" alt="{{ product.featured_image.alt }}" src="{{ product.featured_image | img_url: 'master' }}" loading="lazy" class="content17_dropdown_image">
+<div class="content17_dropdown_image-layer"></div></div></div></nav>
+                            
+                        </div>
+{% endfor %}{% for product in collection.products %}    <div data-delay="0" data-hover="false" li-for="product in collection.products" data-w-id="b828b506-d1c2-8b58-8713-2a09bcd0bfc9" class="content17_dropdown w-dropdown">
+                                    
+                            <div data-w-id="b828b506-d1c2-8b58-8713-2a09bcd0bfca" class="content17_dropdown_toggle w-dropdown-toggle"><div li-object="product.title" class="content17_dropdown_toggle-name">{{ product.title }}</div><div class="content17_dropdown_toggle-closer">Cerrar</div><div class="content17_dropdown_toggle-opener">Ver detalles</div><div class="cta38_link-image-wrapper pointer-events-off"><img loading="eager" src="https://d3e54v103j8qbb.cloudfront.net/plugins/Basic/assets/placeholder.60f9b1840c.svg" alt="" class="cta38_link-image is-glassware">
+</div></div>
+                            
+                            <nav class="content17_dropdown_list w-dropdown-list"><div class="content17_dropdown_list-inner"><div class="content17_dropdown_list-inner-text"><p li-object="product.description" class="product-description">{{ product.description }}</p><div class="margin-top margin-large"><a href="#" class="button w-button">Comprar</a></div></div><div id="w-node-b828b506-d1c2-8b58-8713-2a09bcd0bfdb-13ef4038" class="content17_dropdown_image-wrapper"><img li-object:src="product.featured_image | img_url: 'master'" li-object:alt="product.featured_image.alt" alt="{{ product.featured_image.alt }}" src="{{ product.featured_image | img_url: 'master' }}" loading="lazy" class="content17_dropdown_image">
+<div class="content17_dropdown_image-layer"></div></div></div></nav>
+                            
+                        </div>
+{% endfor %}{% for product in collection.products %}    <div data-delay="0" data-hover="false" li-for="product in collection.products" data-w-id="ffbe73e9-95a7-992c-4958-1b9299754c5f" class="content17_dropdown w-dropdown">
+                                    
+                            <div data-w-id="ffbe73e9-95a7-992c-4958-1b9299754c60" class="content17_dropdown_toggle w-dropdown-toggle"><div li-object="product.title" class="content17_dropdown_toggle-name">{{ product.title }}</div><div class="content17_dropdown_toggle-closer">Cerrar</div><div class="content17_dropdown_toggle-opener">Ver detalles</div><div class="cta38_link-image-wrapper pointer-events-off"><img loading="eager" src="https://d3e54v103j8qbb.cloudfront.net/plugins/Basic/assets/placeholder.60f9b1840c.svg" alt="" class="cta38_link-image is-glassware">
+</div></div>
+                            
+                            <nav class="content17_dropdown_list w-dropdown-list"><div class="content17_dropdown_list-inner"><div class="content17_dropdown_list-inner-text"><p li-object="product.description" class="product-description">{{ product.description }}</p><div class="margin-top margin-large"><a href="#" class="button w-button">Comprar</a></div></div><div id="w-node-ffbe73e9-95a7-992c-4958-1b9299754c71-13ef4038" class="content17_dropdown_image-wrapper"><img li-object:src="product.featured_image | img_url: 'master'" li-object:alt="product.featured_image.alt" alt="{{ product.featured_image.alt }}" src="{{ product.featured_image | img_url: 'master' }}" loading="lazy" class="content17_dropdown_image">
+<div class="content17_dropdown_image-layer"></div></div></div></nav>
+                            
+                        </div>
+{% endfor %}</div><div class="margin-top margin-xxlarge hide-tablet"><div class="text-align-center"><a id="see-all" href="#" button="seeAll" data-w-id="cfd513a4-86bd-1482-2ebb-d03490ee8736" class="button is-link w-button">Ver todas</a></div></div><div style="display:none" class="modal3_component"><div style="-webkit-transform:translate3d(null, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(null, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(null, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(null, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)" class="modal3_content-wrapper"><div class="modal3_slider"><div js="stepSliderPrev" class="modal3_slider-button-left"><div class="icon-embed-medium w-embed"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewbox="0 0 48 48" fill="none" preserveaspectratio="xMidYMid meet" aria-hidden="true" role="img"><circle cx="24" cy="24" r="24" fill="black"></circle><path d="M29 12L17 24L29 36" stroke="white" stroke-width="2"></path></svg></div></div><div js="stepSliderNext" class="modal3_slider-button-right"><div class="icon-embed-medium w-embed"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewbox="0 0 48 48" fill="none" preserveaspectratio="xMidYMid meet" aria-hidden="true" role="img"><circle cx="24" cy="24" r="24" transform="rotate(-180 24 24)" fill="black"></circle><path d="M19 36L31 24L19 12" stroke="white" stroke-width="2"></path></svg></div></div><a data-w-id="cfd513a4-86bd-1482-2ebb-d03490ee8745" href="#" class="modal3_close-button w-inline-block"><div>Cerrar</div></a><div class="collections_swiper-wrapper"><div class="swiper is-collections"><div role="list" class="swiper-wrapper is-collections">{% for collection in section.settings.collection_list limit: section.settings.collection_limit %}    <div li-for="collection in section.settings.collection_list limit: section.settings.collection_limit" class="swiper-slide is-collections">
                                     
                             {% render 'product_item', product: product %}
 
                             
                         </div>
-{% endfor %}</div>{% if collection.products == blank %}    <div li-if="collection.products == blank" class="filter_empty w-dyn-empty">
-    <div class="heading-style-h6">No results found.</div><div class="spacer-xxsmall"></div><div>There are no results with this criteria. Try changing your search.</div>    </div>
-{% endif %}</div>{% if paginate.pages > 1 %}    <nav li-if="paginate.pages > 1" class="pagination_component">
-    <ul role="list" class="pagination_list w-list-unstyled">{% if paginate.previous %}    <li li-if="paginate.previous" class="pagination_item">
-    <a li-object:href="paginate.previous.url" href="{{ paginate.previous.url }}" class="button is-secondary is-icon w-inline-block"><div class="pagination_arrow w-embed"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewbox="0 0 13 8" fill="none" preserveaspectratio="xMidYMid meet" aria-hidden="true" role="img"><path d="M1.67318 0.589844L6.26318 5.16984L10.8532 0.589844L12.2632 1.99984L6.26318 7.99984L0.263184 1.99984L1.67318 0.589844Z" fill="currentColor"></path></svg></div><div>Back</div></a>    </li>
-{% endif %}{% if paginate.previous == false %}    <li li-if="paginate.previous == false" class="pagination_item">
-    <a li-object:href="paginate.previous.url" href="{{ paginate.previous.url }}" class="button is-secondary is-icon text-style-muted pointer-events-off w-inline-block"><div class="pagination_arrow w-embed"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewbox="0 0 13 8" fill="none" preserveaspectratio="xMidYMid meet" aria-hidden="true" role="img"><path d="M1.67318 0.589844L6.26318 5.16984L10.8532 0.589844L12.2632 1.99984L6.26318 7.99984L0.263184 1.99984L1.67318 0.589844Z" fill="currentColor"></path></svg></div><div>Back</div></a>    </li>
-{% endif %}{% for part in paginate.parts %}    <li li-for="part in paginate.parts" class="pagination_item">
+{% endfor %}{% for collection in section.settings.collection_list limit: section.settings.collection_limit %}    <div li-for="collection in section.settings.collection_list limit: section.settings.collection_limit" class="swiper-slide is-collections">
                                     
-                            {% if part.is_link %}    <div li-if="part.is_link">
-    <a li-object:href="part.url" href="{{ part.url }}" class="pagination_count w-inline-block"><div li-object="part.title" class="text-style-link">{{ part.title }}</div></a>    </div>
-{% endif %}
+                            {% render 'product_item', product: product %}
+
                             
-                            {% if part.is_link == false %}    <div li-if="part.is_link == false">
-    <div li-object="part.title" class="{% if part.title == paginate.current_page %}text-weight-semibold{% endif %}">{{ part.title }}</div>    </div>
-{% endif %}
+                        </div>
+{% endfor %}{% for collection in section.settings.collection_list limit: section.settings.collection_limit %}    <div li-for="collection in section.settings.collection_list limit: section.settings.collection_limit" class="swiper-slide is-collections">
+                                    
+                            {% render 'product_item', product: product %}
+
                             
-                        </li>
-{% endfor %}{% if paginate.next == false %}    <li li-if="paginate.next == false" class="pagination_item">
-    <a li-object:href="paginate.next.url" href="{{ paginate.next.url }}" class="button is-secondary is-icon text-style-muted pointer-events-off w-inline-block"><div>Next</div><div class="pagination_arrow is-right w-embed"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewbox="0 0 13 8" fill="none" preserveaspectratio="xMidYMid meet" aria-hidden="true" role="img"><path d="M1.67318 0.589844L6.26318 5.16984L10.8532 0.589844L12.2632 1.99984L6.26318 7.99984L0.263184 1.99984L1.67318 0.589844Z" fill="currentColor"></path></svg></div></a>    </li>
-{% endif %}{% if paginate.next %}    <li li-if="paginate.next" class="pagination_item">
-    <a li-object:href="paginate.next.url" href="{{ paginate.next.url }}" class="button is-secondary is-icon w-inline-block"><div>Next</div><div class="pagination_arrow is-right w-embed"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewbox="0 0 13 8" fill="none" preserveaspectratio="xMidYMid meet" aria-hidden="true" role="img"><path d="M1.67318 0.589844L6.26318 5.16984L10.8532 0.589844L12.2632 1.99984L6.26318 7.99984L0.263184 1.99984L1.67318 0.589844Z" fill="currentColor"></path></svg></div></a>    </li>
-{% endif %}</ul>    </nav>
-{% endif %}</div></div></div></div> {% schema %} {"tag":"section","name":"collection_products","class":"section_filters","presets":[{"name":"collection_products","category":"Liquify","blocks":[]}]} {% endschema %}
+                        </div>
+{% endfor %}{% for collection in section.settings.collection_list limit: section.settings.collection_limit %}    <div li-for="collection in section.settings.collection_list limit: section.settings.collection_limit" class="swiper-slide is-collections">
+                                    
+                            {% render 'product_item', product: product %}
+
+                            
+                        </div>
+{% endfor %}{% for collection in section.settings.collection_list limit: section.settings.collection_limit %}    <div li-for="collection in section.settings.collection_list limit: section.settings.collection_limit" class="swiper-slide is-collections">
+                                    
+                            {% render 'product_item', product: product %}
+
+                            
+                        </div>
+{% endfor %}</div></div></div></div></div><div data-w-id="cfd513a4-86bd-1482-2ebb-d03490ee8748" style="opacity:0" class="modal3_background-overlay"></div></div><div class="w-embed"><style>.content17_item:hover {
+    z-index: 99999;
+  }
+</style></div></div> <script> document.addEventListener('DOMContentLoaded', () =>{$(".swiper_component.is-collections").each(function (index){const swiper = new Swiper($(this).find(".swiper")[0],{autoHeight: false, followFinger: true, freeMode: false, slideToClickedSlide: false, slidesPerView: "auto", rewind: false, loop: true, centeredSlides: true, autoplay:{delay: 2500, disableOnInteraction: false,}, breakpoints:{992:{slidesPerView: 2,}, 1440:{slidesPerView: 3}}, mousewheel:{forceToAxis: true}, keyboard:{enabled: true, onlyInViewport: true}, pagination:{el: $(this).find(".swiper_pagination")[0], bulletActiveClass: "is-active", bulletClass: "swiper_bullet", bulletElement: "button", clickable: true,}, navigation:{nextEl: $(this).find(".swiper_button.swiper-next")[0], prevEl: $(this).find(".swiper_button.swiper-prev")[0], disabledClass: "swiper-button-disabled",}, slideActiveClass: "is-active", slideDuplicateActiveClass: "is-active", a11y:{slideRole: 'listitem'}});});}); </script> <div class="hide w-embed"></div>
+</div></div> {% schema %} {"tag":"section","name":"collection_products","class":"section_filters","settings":[{"type":"collection_list","id":"collection_list","label":"Collections","limit":20},{"type":"range","id":"collection_limit","min":1,"max":50,"step":1,"label":"Collections: Limit","default":12}],"presets":[{"name":"collection_products","category":"Liquify","blocks":[]}]} {% endschema %}
