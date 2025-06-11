@@ -1,0 +1,10 @@
+<div class="padding-global"><div class="container-large"><div class="padding-section-large"><div class="margin-bottom margin-xxlarge"><h2 class="heading-style-h2">
+{{ section.settings.text_titulo }}
+</h2>
+</div><div class="cta38_component">{% for customer in shop.metaobjects.customer.values %}    <div li-for="customer in shop.metaobjects.customer.values" class="cta38_item">
+                                    
+                            <a li-object:href="customer.url" data-w-id="9303fa25-2f9b-e14c-1fa1-588801529a55" href="{{ customer.url }}" target="_blank" class="cta38_link-block w-inline-block"><h3 li-object="customer.nombre" class="cta38_link-text">{{ customer.nombre }}</h3><div li-object="customer..ciudad" class="clients_place">{{ customer..ciudad }}</div><div class="cta38_link-image-wrapper pointer-events-off"><img class="cta38_link-image" src="{{ customer..imagen | img_url: 'master' }}" alt="{{ customer..imagen }}" sizes="(max-width: 1439px) 100vw, 1440px" li-object:src="customer..imagen | img_url: 'master'" loading="eager" li-object:alt="customer..imagen" srcset="{{ 'ASAM4785-1-p-500.jpg' | asset_url }} 500w, {{ 'ASAM4785-1-p-800.jpg' | asset_url }} 800w, {{ 'ASAM4785-1-p-1080.jpg' | asset_url }} 1080w, {{ 'ASAM4785-1.jpg' | asset_url }} 1440w">
+</div></a>
+                            
+                        </div>
+{% endfor %}</div></div></div></div> {% schema %} {"tag":"header","name":"Customer","class":"section_cta38","settings":[{"id":"text_titulo","type":"text","label":"T\u00edtulo","default":"Nuestros clientes"}],"presets":[{"name":"Customer","category":"Liquify","blocks":[]}]} {% endschema %}
