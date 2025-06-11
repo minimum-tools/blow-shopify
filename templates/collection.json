@@ -14,8 +14,9 @@
       "name": "Collection-Hero",
       "settings": {}
     },
-    "productos_de_la_cole": {
-      "type": "productos_de_la_cole",
+    "collection_products_MeHz94": {
+      "type": "collection_products",
+      "name": "collection_products",
       "settings": {}
     }
   },
@@ -23,6 +24,6 @@
   "wrapper": "main.main-wrapper",
   "order": [
     "collection_hero_YPYHRR",
-    "productos_de_la_cole"
+    "collection_products_MeHz94"
   ]
 }
