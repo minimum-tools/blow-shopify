@@ -76,6 +76,19 @@
     "footer_blow": {
       "type": "footer_blow",
       "settings": {}
+    },
+    "collection_swiper_1_VjUPTB": {
+      "type": "collection_swiper_1",
+      "name": "Collection Swiper 1",
+      "settings": {
+        "text_heading": "Bestseller",
+        "collection_list": [
+          "essentials",
+          "helenica",
+          "petite"
+        ],
+        "collection_limit": 12
+      }
     }
   },
   "layout": "theme",
@@ -90,6 +103,7 @@
     "full_image_fR6GUm",
     "imagenes_grid",
     "clientes_MaXxca",
-    "footer_blow"
+    "footer_blow",
+    "collection_swiper_1_VjUPTB"
   ]
 }
