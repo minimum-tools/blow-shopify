@@ -35,6 +35,11 @@
         "text_titular": "Colecciones"
       }
     },
+    "list_collection_QYRKVV": {
+      "type": "list_collection",
+      "name": "List-Collection",
+      "settings": {}
+    },
     "full_image_fR6GUm": {
       "type": "full_image",
       "name": "Full Image",
@@ -64,17 +69,6 @@
         "image_imagen_derecha": "shopify://shop_images/derc.jpg"
       }
     },
-    "clientes": {
-      "type": "clientes",
-      "settings": {
-        "text_titulo": "Nuestros clientes"
-      }
-    },
-    "list_collection_QYRKVV": {
-      "type": "list_collection",
-      "name": "List-Collection",
-      "settings": {}
-    },
     "category": {
       "type": "category",
       "settings": {
@@ -102,7 +96,6 @@
     "contenido_e_imagen_g",
     "frase_destacada",
     "imagenes_grid",
-    "clientes",
     "category",
     "footer_blow"
   ]
