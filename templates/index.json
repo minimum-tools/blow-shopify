@@ -73,11 +73,16 @@
         "text_titulo": "Nuestros clientes"
       }
     },
+    "video_rWMi4r": {
+      "type": "video",
+      "name": "Video",
+      "settings": {}
+    },
     "footer_blow": {
       "type": "footer_blow",
       "settings": {}
     },
-    "video_rWMi4r": {
+    "video_Vn7pkn": {
       "type": "video",
       "name": "Video",
       "settings": {}
@@ -96,6 +101,7 @@
     "imagenes_grid",
     "clientes_MaXxca",
     "video_rWMi4r",
-    "footer_blow"
+    "footer_blow",
+    "video_Vn7pkn"
   ]
 }
