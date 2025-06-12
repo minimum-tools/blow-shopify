@@ -11,7 +11,6 @@
   "sections": {
     "collection_hero_YPYHRR": {
       "type": "collection_hero",
-      "name": "Collection-Hero",
       "settings": {}
     },
     "collection_products_MeHz94": {
@@ -20,10 +19,16 @@
         ".swiper-wrapper.is-collections .product-item_left p {display: none;}",
         ".swiper-wrapper.is-collections .product-item_left .content17_dropdown_table {margin-top: 0px;}"
       ],
-      "name": "collection_products",
       "settings": {
         "collection_list": [],
         "collection_limit": 12
+      }
+    },
+    "video_MXmk9i": {
+      "type": "video",
+      "name": "Video",
+      "settings": {
+        "video": "shopify://files/videos/video.mp4"
       }
     }
   },
@@ -31,6 +36,7 @@
   "wrapper": "main.main-wrapper",
   "order": [
     "collection_hero_YPYHRR",
-    "collection_products_MeHz94"
+    "collection_products_MeHz94",
+    "video_MXmk9i"
   ]
 }
