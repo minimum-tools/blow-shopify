@@ -9,7 +9,7 @@
 </a><div class="cart_info-order"><a href="{{ item.url }}" li-object:href="item.url" li-object="item.title" class="text-size-regular">{{ item.title }}</a><div class="hide"><p item="price" class="cart_price">$13</p><p item="original-price" class="cart_price away">$18</p></div></div></div>
                             
                             <div id="w-node-_51dd9338-e259-f546-1410-ab7878c921c7-13ef4037" class="cart_table-item anzahl"><div class="cart_quantity-wrapper"><div>Cantidad</div><input class="cart_quantity w-input" li-object:value="item.quantity" maxlength="256" name="updates[]" data-name="updates[]" placeholder="1" type="number" id="updates[]" required="" value="{{ item.quantity }}">
-</div><a href="{{ item.url_to_remove }}" li-object:href="item.url_to_remove" class="text-size-tiny text-style-link text-align-center w-inline-block"><div>Remove</div></a></div>
+</div><a href="{{ item.url_to_remove }}" li-object:href="item.url_to_remove" class="text-size-tiny text-style-link text-align-center w-inline-block"><div>Quitar</div></a></div>
                             
                             <div id="w-node-_3d7cbf18-159c-e09d-034b-aa8947f77c7f-13ef4037" class="cart_price-info"><div li-object="item.final_line_price | money" class="text-size-regular">{{ item.final_line_price | money }}</div>{% if item.original_line_price > item.final_line_price %}    <div li-if="item.original_line_price > item.final_line_price">
     <div li-object="item.original_line_price | money" class="text-size-regular text-style-strikethrough">{{ item.original_line_price | money }}</div>    </div>
@@ -18,7 +18,7 @@
                         </div>
 {% endfor %}</div><div id="w-node-e70215e6-46ed-17af-2aa7-195241f33b0a-13ef4037" class="cart_wrapper-right"><div id="w-node-e70215e6-46ed-17af-2aa7-195241f33b0b-13ef4037" class="cart_table outline-solid-1"><div class="cart_grid is-header w-hidden-tiny"><div id="w-node-e70215e6-46ed-17af-2aa7-195241f33b0d-13ef4037" class="cart_table-header"><p class="text-size-regular">Resumen</p></div></div><div class="cart_content"><div class="cart_wrapper"><div class="cart_details-wrapper"><div class="text-size-regular">Sum <span class="text-size-tiny">(inkl. Vat.)</span></div><div class="cart_details-price">{% if cart.total_discounts > 0 %}    <div li-if="cart.total_discounts > 0">
     <div li-object="cart.original_total_price | money" class="text-style-strikethrough">{{ cart.original_total_price | money }}</div>    </div>
-{% endif %}<div li-object="cart.total_price | money" class="heading-style-h3">{{ cart.total_price | money }}</div></div></div>{% if cart.total_discounts > 0 %}    <div li-if="cart.total_discounts > 0" class="cart_details-wrapper">
+{% endif %}<div li-object="cart.total_price | money" class="heading-style-h4">{{ cart.total_price | money }}</div></div></div>{% if cart.total_discounts > 0 %}    <div li-if="cart.total_discounts > 0" class="cart_details-wrapper">
     <div class="text-size-regular">Descuento</div><div li-object="cart.total_discount | money">{{ cart.total_discount | money }}</div>    </div>
 {% endif %}</div><div class="cart_action"><input type="submit" data-wait="Please wait..." class="button w-button" value="Checkout" name="checkout">
 <input type="submit" data-wait="Por favor, espere..." class="button is-outline w-button" value="Update cart">
