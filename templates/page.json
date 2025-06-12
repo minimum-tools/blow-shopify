@@ -32,6 +32,13 @@
         "text_heading": "Madrid(es)",
         "image_imagen_derecha": "shopify://shop_images/6840707c23237cff59e63bf9_Group_513149.png"
       }
+    },
+    "frase_destacada_3t6RPa": {
+      "type": "frase_destacada",
+      "name": "Frase Destacada",
+      "settings": {
+        "text_texto": "Nuestra historia es la historia de la artesanía, la innovación y la búsqueda constante de la perfección."
+      }
     }
   },
   "layout": "page",
@@ -39,6 +46,7 @@
   "order": [
     "full_image_MDYXMt",
     "text_intro_tipo2_qBjj9e",
-    "text_intro_tipo3_FPMQaT"
+    "text_intro_tipo3_FPMQaT",
+    "frase_destacada_3t6RPa"
   ]
 }
