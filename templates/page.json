@@ -19,13 +19,11 @@
       "type": "text_intro_tipo2",
       "settings": {
         "text_heading": "Nuestra historia",
-        "text_contenido": "Blow Glassware nace en 2022 de la inquietud y la visión creativa de Ángel Ávila Parra, un experimentado bartender con más de 20 años de trayectoria en la industria. Tras haber trabajado en algunos de los espacios más cuidados y exigentes del sector hospitality, sintió la necesidad de crear una cristalería que estuviera a la altura de su oficio y del estándar que lo había acompañado a lo largo de su carrera, pensada por y para bartenders.",
-        "text_contenido_2": "Inspirado en su profundo conocimiento de la mixología y guiado por un compromiso inquebrantable con la estética y la excelencia, dio forma a una serie de piezas concebidas no solo para seducir la vista, sino para transformar por completo la experiencia de beber."
+        "richtext_contenido": "<p>Blow Glassware nace en 2022 de la inquietud y la visión creativa de Ángel Ávila Parra, un experimentado bartender con más de 20 años de trayectoria en la industria. Tras haber trabajado en algunos de los espacios más cuidados y exigentes del sector hospitality, sintió la necesidad de crear una cristalería que estuviera a la altura de su oficio y del estándar que lo había acompañado a lo largo de su carrera, pensada por y para bartenders.</p><p>Inspirado en su profundo conocimiento de la mixología y guiado por un compromiso inquebrantable con la estética y la excelencia, dio forma a una serie de piezas concebidas no solo para seducir la vista, sino para transformar por completo la experiencia de beber.</p><p>Lo que comenzó como un proyecto personal se convirtió en una marca que celebra el detalle, la autenticidad y el valor del oficio. En muy poco tiempo, Blow Glassware se ha consolidado como un referente entre aquellos espacios donde cada gesto cuenta y la  excelencia no se negocia.</p>"
       }
     },
     "text_intro_tipo3_FPMQaT": {
       "type": "text_intro_tipo3",
-      "name": "Text Intro - Tipo3",
       "settings": {
         "text_contenido": "En el corazón de nuestro camino está el deseo de crear una comunidad: una red de personas que creen en la estética, la pasión y el propósito.",
         "image_imagen_izquierda": "shopify://shop_images/6840707c23237cff59e63bf2_645666bb92725d4840a9a28c_blow-logo_1.png",
@@ -35,7 +33,6 @@
     },
     "frase_destacada_3t6RPa": {
       "type": "frase_destacada",
-      "name": "Frase Destacada",
       "settings": {
         "text_texto": "Nuestra historia es la historia de la artesanía, la innovación y la búsqueda constante de la perfección."
       }
