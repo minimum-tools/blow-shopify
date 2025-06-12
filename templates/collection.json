@@ -24,7 +24,7 @@
         "collection_limit": 12
       }
     },
-    "video_FQ4HQ8": {
+    "video_3akdqR": {
       "type": "video",
       "name": "Video",
       "settings": {
@@ -37,6 +37,6 @@
   "order": [
     "collection_hero_YPYHRR",
     "collection_products_MeHz94",
-    "video_FQ4HQ8"
+    "video_3akdqR"
   ]
 }
