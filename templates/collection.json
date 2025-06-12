@@ -17,7 +17,8 @@
     "collection_products_MeHz94": {
       "type": "collection_products",
       "custom_css": [
-        ".swiper-wrapper.is-collections .product-item_left p {display: none;}"
+        ".swiper-wrapper.is-collections .product-item_left p {display: none;}",
+        ".swiper-wrapper.is-collections .product-item_left .content17_dropdown_table {margin-top: 0px;}"
       ],
       "name": "collection_products",
       "settings": {
