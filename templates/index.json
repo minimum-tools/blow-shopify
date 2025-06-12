@@ -73,11 +73,6 @@
         "text_titulo": "Nuestros clientes"
       }
     },
-    "video_rWMi4r": {
-      "type": "video",
-      "name": "Video",
-      "settings": {}
-    },
     "video_Vn7pkn": {
       "type": "video",
       "name": "Video",
@@ -86,6 +81,14 @@
     "footer_blow": {
       "type": "footer_blow",
       "settings": {}
+    },
+    "team_BjBn6C": {
+      "type": "team",
+      "name": "Team",
+      "settings": {
+        "text_title": "Our team",
+        "text_content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique."
+      }
     }
   },
   "layout": "theme",
@@ -100,7 +103,7 @@
     "full_image_fR6GUm",
     "imagenes_grid",
     "clientes_MaXxca",
-    "video_rWMi4r",
+    "team_BjBn6C",
     "video_Vn7pkn",
     "footer_blow"
   ]
