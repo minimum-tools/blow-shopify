@@ -17,6 +17,9 @@
     },
     "text_intro_tipo2_qBjj9e": {
       "type": "text_intro_tipo2",
+      "custom_css": [
+        ".section_header1 .header1_content-left-top .text-size-large p {margin-bottom: 2rem;}"
+      ],
       "settings": {
         "text_heading": "Nuestra historia",
         "richtext_contenido": "<p>Blow Glassware nace en 2022 de la inquietud y la visión creativa de Ángel Ávila Parra, un experimentado bartender con más de 20 años de trayectoria en la industria. Tras haber trabajado en algunos de los espacios más cuidados y exigentes del sector hospitality, sintió la necesidad de crear una cristalería que estuviera a la altura de su oficio y del estándar que lo había acompañado a lo largo de su carrera, pensada por y para bartenders.</p><p>Inspirado en su profundo conocimiento de la mixología y guiado por un compromiso inquebrantable con la estética y la excelencia, dio forma a una serie de piezas concebidas no solo para seducir la vista, sino para transformar por completo la experiencia de beber.</p><p>Lo que comenzó como un proyecto personal se convirtió en una marca que celebra el detalle, la autenticidad y el valor del oficio. En muy poco tiempo, Blow Glassware se ha consolidado como un referente entre aquellos espacios donde cada gesto cuenta y la  excelencia no se negocia.</p>"
