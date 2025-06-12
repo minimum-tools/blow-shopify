@@ -9,10 +9,6 @@
  */
 {
   "sections": {
-    "default": {
-      "type": "default",
-      "settings": {}
-    },
     "full_image_MDYXMt": {
       "type": "full_image",
       "name": "Full Image",
@@ -32,7 +28,6 @@
   "layout": "page",
   "wrapper": "main.main-wrapper",
   "order": [
-    "default",
     "full_image_MDYXMt",
     "text_intro_tipo2_qBjj9e"
   ]
