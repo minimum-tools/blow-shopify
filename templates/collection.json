@@ -16,8 +16,14 @@
     },
     "collection_products_MeHz94": {
       "type": "collection_products",
+      "custom_css": [
+        ".swiper-wrapper.is-collections .product-item_left p {display: none;}"
+      ],
       "name": "collection_products",
-      "settings": {}
+      "settings": {
+        "collection_list": [],
+        "collection_limit": 12
+      }
     }
   },
   "layout": "collection",
