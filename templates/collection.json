@@ -23,22 +23,12 @@
         "collection_list": [],
         "collection_limit": 12
       }
-    },
-    "collection_swiper_1_Bdyhgy": {
-      "type": "collection_swiper_1",
-      "name": "Collection Swiper 1",
-      "settings": {
-        "text_heading": "Bestseller",
-        "collection_list": [],
-        "collection_limit": 12
-      }
     }
   },
   "layout": "collection",
   "wrapper": "main.main-wrapper",
   "order": [
     "collection_hero_YPYHRR",
-    "collection_products_MeHz94",
-    "collection_swiper_1_Bdyhgy"
+    "collection_products_MeHz94"
   ]
 }
